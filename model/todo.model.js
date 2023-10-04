@@ -6,7 +6,7 @@ const todoSchema=mongoose.Schema({
 })
 
 
-const userModel=mongoose.model("TODO",todoSchema)
+const todoModel=mongoose.model("TODO",todoSchema)
 
 module.exports={
     todoModel
